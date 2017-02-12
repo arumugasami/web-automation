@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="browserName" value="firefox"/>
+  <listeners>
+    <listener class-name="com.listeners.WebDriverListener"/>
+  </listeners>
+  <test name="RegisterUserLogin(failed)" parallel="none">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.test.RegisterUserLogin">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verifyPlan"/>
+        </methods>
+      </class> <!-- com.test.RegisterUserLogin -->
+    </classes>
+  </test> <!-- RegisterUserLogin(failed) -->
+</suite> <!-- Failed suite [Suite] -->
