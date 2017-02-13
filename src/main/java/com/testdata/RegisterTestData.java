@@ -12,7 +12,7 @@ public class RegisterTestData {
 		Object[][] data = new Object[1][1];
 		registerData.put("firstName", "John");
 		registerData.put("lastName", "Doe");
-		registerData.put("email", "hellofresh@sdsdsdfhj.com");
+		registerData.put("email", "hellofresh@seleniumchallenge.com");
 		registerData.put("password", "logmein");
 		registerData.put("Day", "1");
 		registerData.put("Month", "1");

@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.Reporter;
 
 
 public class PlansPage extends BasePage {
@@ -50,7 +51,9 @@ public class PlansPage extends BasePage {
 		
 		if(classicPlantxt.equalsIgnoreCase(classicPlanTxt.getText())
 				&& priceBoxtxt.equalsIgnoreCase(classicPriceTxt.getText())){
+			Reporter.log("Validation successful for CLassic plan and price");
 			return true;
+			
 		}
 		
 		return false;
