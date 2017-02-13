@@ -21,7 +21,7 @@ Importing this project and running on windows machine which has firefox browser 
 
 This project and be directly run from the command line as well with mvn test command which takes a parameter country.
 -Dcountry=uk as the parameter will run tests on UK site and -Dcountry=us or -Dcountry = (any paramater) will run the test on US site.
-The test data are called out in the testng xml and the testng xml is called inside the POM.
+The test data are called out in the testng xml and supplied as supplied as seperate java class within the project. The testng xml is called inside the POM.
 The TestNG report will be present target folder. reporter-output present inside suite folder will show the logs generated.
 
 ##Tests:
